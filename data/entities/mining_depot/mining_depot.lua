@@ -380,10 +380,10 @@ local recipe =
   type = "recipe",
   name = name,
   localised_name = {name},
-  enabled = true,
+  enabled = false,
   ingredients =
   {
-    {type = "item", name = "iron-plate", amount = 50},
+    {type = "item", name = "iron-plate", amount = 100},
     {type = "item", name = "iron-gear-wheel", amount = 10}
   },
   energy_required = 5,

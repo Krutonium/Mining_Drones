@@ -1,8 +1,12 @@
-Version 2.0.2-K
+Version 2.0.2
 Date: 2025-02-15
   Changes
     - Removed Iron Stick as a Crafting Requirement
+    - Changed Plate and Gear amounts for both recipes
+    - Crafting a Mining Drone now creates 5 drones instead of 1
     - Increased Stack Size to 100 from 20 for Mining Drones
+    - Research is now required to unlock the Mining Drones
+    - New Developer/Fork: Krutonium
 ---------------------------------------------------------------------------------------------------
 Version: 2.0.1
 Date: 2025-01-28
