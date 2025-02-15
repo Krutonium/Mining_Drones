@@ -384,8 +384,7 @@ local recipe =
   ingredients =
   {
     {type = "item", name = "iron-plate", amount = 50},
-    {type = "item", name = "iron-gear-wheel", amount = 10},
-    {type = "item", name = "iron-stick", amount = 20},
+    {type = "item", name = "iron-gear-wheel", amount = 10}
   },
   energy_required = 5,
   results = {{type = "item", name = name, amount = 1}}

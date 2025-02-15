@@ -12,7 +12,7 @@ local item = {
   flags = {},
   subgroup = "extraction-machine",
   order = "zb"..name,
-  stack_size = 20,
+  stack_size = 100,
   --place_result = name
 }
 
@@ -25,11 +25,10 @@ local recipe = {
   ingredients =
   {
     {type = "item", name = "iron-plate", amount = 10},
-    {type = "item", name = "iron-gear-wheel", amount = 5},
-    {type = "item", name = "iron-stick", amount = 10}
+    {type = "item", name = "iron-gear-wheel", amount = 5}
   },
   energy_required = 2,
-  results = {{type = "item", name = name, amount = 1}}
+  results = {{type = "item", name = name, amount = 5}}
 }
 
 data:extend
