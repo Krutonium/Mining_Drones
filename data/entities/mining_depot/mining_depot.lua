@@ -16,13 +16,13 @@ local sprite_width = 768
 local sprite_height = 768
 local sprite_scale = 0.5
 local shift = {0, 0}
-local sprite_path = "__Mining_Drones__/data/entities/mining_depot/Scene_layer-main/Scene_layer-main_"
-local shadow_path = "__Mining_Drones__/data/entities/mining_depot/Scene_layer-shadow/Scene_layer-shadow_"
+local sprite_path = "__Mining_Drones_Mod__/data/entities/mining_depot/Scene_layer-main/Scene_layer-main_"
+local shadow_path = "__Mining_Drones_Mod__/data/entities/mining_depot/Scene_layer-shadow/Scene_layer-shadow_"
 local shifts = shared.depots["mining-depot"].shifts
 
 local duration = 70
 local size = 768
-local particle_path = "__Mining_Drones__/data/entities/mining_depot/Scene_layer-particle"
+local particle_path = "__Mining_Drones_Mod__/data/entities/mining_depot/Scene_layer-particle"
 
 
 local function mining_depot_pipes()
@@ -30,14 +30,14 @@ local function mining_depot_pipes()
   {
     north =
     {
-      filename = "__Mining_Drones__/data/entities/mining_depot/pipes/mining-depot-3-pipe-N.png",
+      filename = "__Mining_Drones_Mod__/data/entities/mining_depot/pipes/mining-depot-3-pipe-N.png",
       priority = "extra-high",
       width = 35,
       height = 18,
       shift = util.by_pixel(2.5, 14),
       hr_version =
       {
-        filename = "__Mining_Drones__/data/entities/mining_depot/pipes/hr-mining-depot-3-pipe-N.png",
+        filename = "__Mining_Drones_Mod__/data/entities/mining_depot/pipes/hr-mining-depot-3-pipe-N.png",
         priority = "extra-high",
         width = 71,
         height = 100,
@@ -47,14 +47,14 @@ local function mining_depot_pipes()
     },
     east =
     {
-      filename = "__Mining_Drones__/data/entities/mining_depot/pipes/mining-depot-3-pipe-E.png",
+      filename = "__Mining_Drones_Mod__/data/entities/mining_depot/pipes/mining-depot-3-pipe-E.png",
       priority = "extra-high",
       width = 20,
       height = 38,
       shift = util.by_pixel(-25, 1),
       hr_version =
       {
-        filename = "__Mining_Drones__/data/entities/mining_depot/pipes/hr-mining-depot-3-pipe-E.png",
+        filename = "__Mining_Drones_Mod__/data/entities/mining_depot/pipes/hr-mining-depot-3-pipe-E.png",
         priority = "extra-high",
         width = 42,
         height = 76,
@@ -64,14 +64,14 @@ local function mining_depot_pipes()
     },
     south =
     {
-      filename = "__Mining_Drones__/data/entities/mining_depot/pipes/mining-depot-3-pipe-S.png",
+      filename = "__Mining_Drones_Mod__/data/entities/mining_depot/pipes/mining-depot-3-pipe-S.png",
       priority = "extra-high",
       width = 44,
       height = 31,
       shift = util.by_pixel(0, -31.5),
       hr_version =
       {
-        filename = "__Mining_Drones__/data/entities/mining_depot/pipes/hr-mining-depot-3-pipe-S.png",
+        filename = "__Mining_Drones_Mod__/data/entities/mining_depot/pipes/hr-mining-depot-3-pipe-S.png",
         priority = "extra-high",
         width = 88,
         height = 99,
@@ -81,14 +81,14 @@ local function mining_depot_pipes()
     },
     west =
     {
-      filename = "__Mining_Drones__/data/entities/mining_depot/pipes/mining-depot-3-pipe-W.png",
+      filename = "__Mining_Drones_Mod__/data/entities/mining_depot/pipes/mining-depot-3-pipe-W.png",
       priority = "extra-high",
       width = 19,
       height = 37,
       shift = util.by_pixel(25.5, 1.5),
       hr_version =
       {
-        filename = "__Mining_Drones__/data/entities/mining_depot/pipes/hr-mining-depot-3-pipe-W.png",
+        filename = "__Mining_Drones_Mod__/data/entities/mining_depot/pipes/hr-mining-depot-3-pipe-W.png",
         priority = "extra-high",
         width = 39,
         height = 73,
@@ -270,7 +270,7 @@ local mining_depot =
   },
   fluid_boxes_off_when_no_fluid_recipe = true,
   gui_title_key = "mining-depot-choose-resource",
-  icon = "__Mining_Drones__/data/technologies/mining_drones_tech.png",
+  icon = "__Mining_Drones_Mod__/data/technologies/mining_drones_tech.png",
   icon_size = 256,
   icon_mipmaps = 0,
   localised_name =  {"mining-depot"},
@@ -360,7 +360,7 @@ local item =
 {
   type = "item",
   name = name,
-  icon = "__Mining_Drones__/data/icons/mining_depot.png",
+  icon = "__Mining_Drones_Mod__/data/icons/mining_depot.png",
   icon_size = 64,
   flags = {},
   subgroup = "extraction-machine",
@@ -411,7 +411,7 @@ local box =
   collision_mask = {layers = {player = true}}
 }
 
-local corpse_path = "__Mining_Drones__/data/entities/mining_depot/corpse/Scene_layer-"
+local corpse_path = "__Mining_Drones_Mod__/data/entities/mining_depot/corpse/Scene_layer-"
 
 local depot_corpse =
 {

@@ -619,7 +619,7 @@ mining_drone.on_configuration_changed = function()
   if not script_data.fix_inventories then
     script_data.fix_inventories = true
 
-    for mod_name, inventories in pairs(game.get_script_inventories("Mining_Drones")) do
+    for mod_name, inventories in pairs(game.get_script_inventories("Mining_Drones_Mod")) do
       for k, inventory in pairs(inventories) do
         inventory.destroy()
       end

@@ -12,7 +12,7 @@ data:extend({
         type = "technology",
         name = "mining-drone-technology",
         icon_size = 128,
-        icon = "__Mining_Drones__/data/icons/mining_depot.png",
+        icon = "__Mining_Drones_Mod__/data/icons/mining_depot.png",
         effects = {
             {
                 type = "unlock-recipe",
