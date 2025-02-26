@@ -1,3 +1,8 @@
+Version 2.0.3
+Date: 2025-02-26
+  Changes:
+    - Fixed loading in Factorio version 2.0.35. (Thanks to Klonan on GitHub!)
+---------------------------------------------------------------------------------------------------
 Version 2.0.2
 Date: 2025-02-15
   Changes

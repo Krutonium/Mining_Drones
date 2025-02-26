@@ -1,11 +1,11 @@
 {
   "name": "Mining_Drones_Mod",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "title": "Mining Drones Mod",
   "author": "Krutonium",
   "contact": "",
   "homepage": "",
   "description": "Adds mining drones and mining depots",
-  "dependencies": ["base >= 1.1.0", "(?)DirtyMining", "(?)omnimatter_compression", "(?)shrek"],
+  "dependencies": ["base >= 2.0.35", "(?)DirtyMining", "(?)omnimatter_compression", "(?)shrek"],
   "factorio_version": "2.0"
 }
